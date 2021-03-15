@@ -1,0 +1,2 @@
+# Pig-Shell-game
+This project is about the game, which will play between computer and player. In this game first computer takes turn and then it will rolled three times random number then sum that three numbers which will become computer's score. After that user will get the chance to play a game. In user's turn if user entered any key then loop is continues, if he types 'end' the loop will break, also if the user get the 1 in random number then user's score become '0' and computer turn began. whoever reach at the 30 or more than points then that player will win the game.

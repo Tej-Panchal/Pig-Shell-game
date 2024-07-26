@@ -1,2 +1,14 @@
-# Pig-Shell-game
-This project is about the game, which will play between computer and player. In this game first computer takes turn and then it will rolled three times random number then sum that three numbers which will become computer's score. After that user will get the chance to play a game. In user's turn if user entered any key then loop is continues, if he types 'end' the loop will break, also if the user get the 1 in random number then user's score become '0' and computer turn began. whoever reach at the 30 or more than points then that player will win the game.
+Overview:
+This project implements a simple turn-based dice game called Pig, where a player competes against the computer. The primary goal is to be the first to accumulate 30 points or more.
+
+Key Features:
+
+Game Description: The game rules and instructions are displayed to the player.
+Turn-Based Play: The computer rolls the dice three times per turn, and the sum of the rolls is added to its score. The player's turn follows, where they can continue to roll the dice or end their turn.
+Dice Roll and Scoring: If a player rolls a 1, their turn ends and they lose all points accumulated in that turn. The game continues until a player reaches at least 30 points.
+User Interaction: The player can choose to end their turn by typing "end". The game then switches to the computer's turn.
+Code Structure:
+
+description(): Displays the game rules.
+main(): Initializes the game by calling the description method and then the play method.
+play(): Manages the turns for both the computer and the player, handles dice rolls, and checks for the end of the game.
